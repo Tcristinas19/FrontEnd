@@ -1,0 +1,116 @@
+/* Estilos da página index.html */
+.center {
+    text-align: center;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li{
+    display: inline;
+    padding: 15px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.menu li a:hover{
+    color: darkgrey;
+}
+
+.p-30 {
+    padding: 30px;
+
+}
+
+.br-50{
+    border-radius: 50%;
+}
+
+.tm-social{
+    width: 50px;
+    height: 50px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+
+
+
+/* Estilos da página contato.html */
+.menu{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.links {
+    font-size: 2rem;
+    text-decoration: none;
+    color:black;
+}
+
+.links:hover{
+    text-decoration: underline;
+    color: #945eda;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 1rem 0;
+    width: 100%;
+}
+
+.campo label {
+    font-size: 1.275rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.campo input, .campo textarea{
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border: 0;
+    border-bottom: 1px solid #945eda;
+}
+
+button {
+    width: 50%;
+    padding: .5rem;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+    border: 2px solid #945eda;
+    background: transparent;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: #945eda;
+}
+
+.ml-50{
+    margin-left: 50px;
+
+}
+
